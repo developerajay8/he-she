@@ -30,7 +30,7 @@ export default function BarberLandingPage() {
   return (
     <div className="min-h-screen bg-[#100c06] font-sans">
 
-      {/* <style>{`
+      <style>{`
         @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
         body { font-family: 'Inter', sans-serif; }
         .font-serif-display { font-family: 'Playfair Display', Georgia, serif; }
@@ -86,7 +86,7 @@ export default function BarberLandingPage() {
           background: rgba(201,160,76,0.25);
           align-self: stretch;
         }
-      `}</style> */}
+      `}</style>
 
       {/* HEADER */}
       <header
@@ -213,43 +213,7 @@ export default function BarberLandingPage() {
           </div>
         </div>
 
-        {/* INFO BAR */}
-        <div className="relative z-10 border-t border-[#C9A04C]/20 bg-[#0d0904]/80 backdrop-blur-sm">
-          <div className="max-w-[1280px] mx-auto px-6 md:px-10 lg:px-16">
-            <div className="grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-[#C9A04C]/20">
-
-              <div className="flex items-start gap-4 py-6 sm:pr-10">
-                <div>
-                  <p className="text-[#C9A04C] text-xs font-semibold tracking-[0.18em] uppercase mb-1">Location</p>
-                  <p className="text-white/75 text-sm leading-relaxed">
-                    Hingona, Near Main Market<br />Local Area, India
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 py-6 sm:px-10">
-                <div>
-                  <p className="text-[#C9A04C] text-xs font-semibold tracking-[0.18em] uppercase mb-1">Contact</p>
-                  <p className="text-white/75 text-sm leading-relaxed">
-                    +91 98765 43210<br />
-                    heshesalon@gmail.com
-                  </p>
-                </div>
-              </div>
-
-              <div className="flex items-start gap-4 py-6 sm:pl-10">
-                <div>
-                  <p className="text-[#C9A04C] text-xs font-semibold tracking-[0.18em] uppercase mb-1">Opening Hours</p>
-                  <p className="text-white/75 text-sm leading-relaxed">
-                    Mon - Sun: 9:00am – 9:00pm<br />
-                    <span className="text-[#C9A04C]/80">Open All Days</span>
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </div>
+        
       </section>
 
     </div>

@@ -120,7 +120,6 @@ export default function StatsTeamReviews() {
         .pf{font-family:'Playfair Display',Georgia,serif;}
         .it{font-family:'Inter',sans-serif;}
 
-        /* Directional animations */
         .from-left  {opacity:0;transform:translateX(-55px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.68,0,1.2);}
         .from-right {opacity:0;transform:translateX( 55px);transition:opacity .7s ease,transform .7s cubic-bezier(.22,.68,0,1.2);}
         .from-bottom{opacity:0;transform:translateY( 50px);transition:opacity .65s ease,transform .65s cubic-bezier(.22,.68,0,1.2);}

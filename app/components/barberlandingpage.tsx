@@ -28,10 +28,15 @@ export default function BarberLandingPage() {
   };
 
   return (
+
+    <>
+    <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+      />
     <div className="min-h-screen bg-[#100c06] font-sans">
 
       <style>{`
-        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&family=Inter:wght@300;400;500;600&display=swap');
         body { font-family: 'Inter', sans-serif; }
         .font-serif-display { font-family: 'Playfair Display', Georgia, serif; }
         @keyframes fadeUp {
@@ -253,5 +258,6 @@ export default function BarberLandingPage() {
       </section>
 
     </div>
+    </>
   );
 }
